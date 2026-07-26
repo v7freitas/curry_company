@@ -140,7 +140,7 @@ df1 = clean_code(df)
 #Sidebar
 #------------------
 
-image = Image.open('../logo.png')
+image = Image.open('logo.png')
 st.sidebar.image(image, width=120)
 
 st.sidebar.markdown('# Cury Company')
