@@ -175,7 +175,7 @@ def orders_located_by_city_by_traffic(df1):
     return None
 
 #Extração do dado
-df = pd.read_csv("../dataset/train.csv")
+df = pd.read_csv("dataset/train.csv")
 
 #Limpando os dados
 df1 = clean_code( df )
@@ -188,7 +188,7 @@ df1 = clean_code( df )
 #Sidebar
 #------------------
 
-image = Image.open('logo.png')
+image = Image.open('../logo.png')
 st.sidebar.image(image, width=120)
 
 st.sidebar.markdown('# Cury Company')

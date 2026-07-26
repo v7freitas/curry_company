@@ -127,7 +127,7 @@ def top_delivery_workers(df1, asc):
     return df_top_delivery_workers
 
 #Extração do dado
-df = pd.read_csv("../dataset/train.csv")
+df = pd.read_csv("dataset/train.csv")
 
 #Limpando o dataset
 df1 = clean_code(df)
@@ -140,7 +140,7 @@ df1 = clean_code(df)
 #Sidebar
 #------------------
 
-image = Image.open('logo.png')
+image = Image.open('../logo.png')
 st.sidebar.image(image, width=120)
 
 st.sidebar.markdown('# Cury Company')

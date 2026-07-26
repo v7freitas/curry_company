@@ -193,7 +193,7 @@ coloraxis_colorbar_title="Desvio-padrão do tempo<br>de entrega (minutos)"
     return fig
 
 #Import dataset
-df = pd.read_csv("../dataset/train.csv")
+df = pd.read_csv("dataset/train.csv")
 
 df1 = clean_code(df)
 
@@ -201,7 +201,7 @@ df1 = clean_code(df)
 #Sidebar
 #------------------
 
-image = Image.open('logo.png')
+image = Image.open('../logo.png')
 st.sidebar.image(image, width=120)
 
 st.sidebar.markdown('# Cury Company')
